@@ -1,4 +1,3 @@
-
 let btn = document.querySelector("#Add");
 let list = document.querySelector("#list");
 let element = document.getElementsByTagName("li");
