@@ -7,13 +7,13 @@
 }
 
 body {
-    background-color: violet;
+    background-color: #fff;
     height: 100vh;
     width: 100%;
 }
 
 .container {
-    border: 2px solid white;
+    border: 2px solid #00a4ccff;
     margin: 120px auto;
     min-width: 450px;
     width: 40%;
@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 12px 0;
 }
 
@@ -47,10 +47,10 @@ h1 {
     width: 70%;
     width: 70%;
     height: 45px;
-    border: 2px solid #d1d1d1;
+    border: 2px solid #f95700ff;
     /* margin: 20px 0; */
     font-size: 20px;
-    font-family: fantasy;
+    font-family: papyrus;
     font-weight: 500;
     position: relative;
     color: #111;
@@ -68,7 +68,7 @@ h1 {
 
 .element input:focus {
     outline: none;
-    border-color: #8052ec;
+    border-color: #00a4ccff;
    
 }
 
@@ -80,7 +80,7 @@ h1 {
     font-size: 16px;
     font-family: 'poppins' sans-serif;
     font-weight: 500;
-    background-color: #8052ec;
+    background-color: #00a4ccff;
     border: none;
     border-radius: 5px;
     color: #fafafa;
@@ -102,7 +102,7 @@ h1 {
    padding: 5px 10px;
    margin-top: 10px;
    align-items: center;
-   border-bottom: 2px solid #d1d3d4;
+   border-bottom: 2px solid #f95700ff;
    cursor: pointer;
 }
 
@@ -128,7 +128,7 @@ li {
 .delBtn {
     height: 100%;
     padding: 7px 14px;
-    background-color: #8052ec;
+    background-color: #00a4ccff;
     border: none;
     justify-content: right;
     border-radius: 3px;
