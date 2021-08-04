@@ -17,8 +17,9 @@ var fillTodo = () => {
      });
   }
 };
+if (window.localStorage.getItem("tasks")) {
 fillTodo();
-
+}
 
 let btn = document.querySelector("#Add");
 let list = document.querySelector("#list");
